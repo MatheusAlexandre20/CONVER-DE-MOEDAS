@@ -1,0 +1,105 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+    outline: none;
+}
+
+body {
+    background-color: #7d1dc2;
+}
+
+.logo-convertion-money {
+    display: block;
+    margin: 20px auto;
+    width: 350px;
+}
+
+main {
+    padding: 44px 24px 23px 24px;
+    margin: 0 auto 40px;
+    background: white;
+    border-radius: 20px;
+    width: 375px;
+}
+
+label {
+    color: #777777;
+    font-weight: 400;
+    font-size: 14px;
+}
+
+select, input {
+    background: #ffffff;
+    border: 1px solid #BBBBBB;
+    border-radius: 4px;
+    height: 48px;
+    width: 100%;
+    margin-bottom: 24px;
+    padding-left: 16px;
+    font-weight: 700;
+    font-size: 16px;
+    color: #555555;
+    cursor: pointer;
+}
+
+input{
+    cursor:auto;
+}
+
+button {
+    height: 48px;
+    width: 100%;
+    background: #772FD3;
+    border: none;
+    border-radius: 5px;
+    font-size: 18px;
+    color: #FFFFFF;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+button:hover{
+    opacity: 0.8;
+}
+   
+button:active{
+    opacity:0.6;
+}
+
+section{
+    margin-top: 35px;
+    border: 1px solid #772FD3;
+    border-radius: 20px;
+    padding: 12px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.arrow-img {
+    margin: 15px 0;
+}
+
+.currency-box{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 4px;
+}
+
+.word-1 {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+    color: #777777;
+}
+
+.word-2{
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 18px;
+
+    color: #555555;
+}
