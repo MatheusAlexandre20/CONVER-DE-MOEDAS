@@ -96,7 +96,7 @@ section{
     color: #777777;
 }
 
-.word-2{
+.currency-value, .currency-value-to-convert{
     font-weight: 700;
     font-size: 20px;
     line-height: 18px;
